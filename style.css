@@ -814,6 +814,10 @@ footer .text {
         width: 100%;
     }
 
+    #contact .contactHead {
+        flex-direction: row-reverse;
+    }
+
     .fixedFoot {
         display: none;
     }
