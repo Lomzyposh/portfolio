@@ -814,8 +814,8 @@ footer .text {
         width: 100%;
     }
 
-    #contact .contactHead {
-        flex-direction: row-reverse;
+    #contact .contactHead::before{
+        width: 0;
     }
 
     .fixedFoot {
