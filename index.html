@@ -5,10 +5,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-amin Olomo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="/images/logo.jpeg">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="dark-mode">
+    <nav class="navbar">
+        <div class="icon">
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
+                <title>Logo</title>
+                <g transform="translate(-8.000000, -2.000000)">
+                    <g transform="translate(11.000000, 5.000000)">
+                        <polygon id="Shape" stroke="#203a43" fill="#0f2027" stroke-width="5" stroke-linecap="round"
+                            stroke-linejoin="round" points="39 0 0 22 0 67 39 90 78 68 78 23"></polygon>
+                        <!-- Letter "a" SVG path -->
+                        <text x="27" y="62" fill="currentColor" id="letter">A</text>
+                    </g>
+                </g>
+            </svg>
+        </div>
 
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger-menu" aria-label="Open navigation" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="loader">
+        <div class="loaderIcon">
+            <svg id="hexagonLogo" width="100" height="100" viewBox="0 0 100 100">
+                <polygon points="50,5 93,27 93,72 50,95 7,72 7,27" stroke="var(--primary-color)" fill="#0f2027"
+                    stroke-width="4" stroke-dasharray="300" stroke-dashoffset="300" />
+            </svg>
+            <span
+                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--primary-color); font-weight: bold;font-size: 30px;">
+                A
+            </span>
+        </div>
+    </div>
+
+    <div class="cursor-glow"></div>
+
+
+    <div class="fixedFoot socials">
+        <ul>
+            <li>
+                <a href="https://github.com/Lomzyposh/">
+                    <i class="bi bi-github" aria-label="GitHub Profile"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lomzy25/" aria-label="LinkedIn Profile">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lomzyp?igsh=MXR6b3VzcGdiOTVkOA==" aria-label="Instagram Profile">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <div class="ripple-container"></div> -->
+    <main>
+
+        <section id="introInfo" class="introInfo fadeIn">
+            <p class="hi">Hi, my name is </p>
+            <h1 class="big-heading">Al-amin Olomo.<br><span>Crafting powerful web experiences.</span>
+            </h1>
+            <p class="otherInfo">I’m a full-stack developer passionate about turning
+                ideas into fast, responsive, and interactive web applications. I love crafting seamless user experiences
+                on the front end, backed by solid, scalable systems on the back end.</p>
+        </section>
+
+        <section id="about" class="about fadeIn">
+
+
+            <div class="box">
+                <div class="text">
+                    <h2 class="aboutHead">About Me</h2>
+                    <p>
+                        I am a software engineering student currently based in Lagos, Nigeria. I
+                        specialize in building interactive and responsive web experiences, with a strong focus on
+                        performance, usability, and clean design.
+                    </p>
+                    <p>My recent work includes a car showcase website and a real estate platform, where I combined
+                        technologies like JavaScript, Node.js, SQL, and GSAP to deliver smooth and engaging user
+                        experiences.
+                    </p>
+                    <p>I'm passionate about turning complex ideas into functional, visually appealing
+                        solutions and continually expanding my skills across both front-end and back-end development.
+                    </p>
+                    <p>Here are a few technologies I’ve been working with recently:</p>
+                    <ul>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Node.js</li>
+                        <li>SQL</li>
+                        <li>GSAP (GreenSock)</li>
+                        <li>HTML &amp; CSS</li>
+                        <li>Git &amp; GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="aboutImg">
+                    <img src="/images/closeUpKey.jpg" alt="Image Sample">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects fadeIn">
+            <h2 class="projectHead">Built with Passion</h2>
+
+            <div class="box">
+                <div class="projImg">
+                    <a href="https://car-proj-green.vercel.app/" target="_blank"></a>
+                    <!-- <div class="overlay"></div> -->
+                    <img src="/images/snip3.png" alt="Project">
+                    </a>
+                </div>
+                <div class="text">
+                    <p class="featured-label">Featured Project</p>
+                    <h2 class="project-title">
+                        <a href="https://car-proj-green.vercel.app/" target="_blank">
+                            PoshAuto
+                        </a>
+                    </h2>
+                    <div class="project-description">
+                        <p>A responsive and interactive car sales website designed to showcase
+                            vehicles in a clean, modern layout.
+                        </p>
+                        <p>
+                            Built entirely as a front-end project using HTML,
+                            JavaScript, and CSS for smooth animations and user-friendly navigation.
+                        </p>
+                    </div>
+                    <ul class="projLang">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Lomzyposh/carProj" target="_blank" rel="noopener"
+                            aria-label="View source on GitHub" title="View source on GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://car-proj-green.vercel.app/" target="_blank" rel="noopener"
+                            aria-label="View live project" title="View live project">
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coming-soon">
+                <p>🚧 More projects are in progress. Stay tuned! 🚀</p>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="contact fadeIn">
+            <h2 class="contactHead">Let's Work Together</h2>
+            <div class="box">
+                <p>I’m currently open to freelance opportunities, collaborations, or full-time roles where I can
+                    contribute
+                    to building fast, user-focused web applications. If you think I’d be a good fit, feel free to reach
+                    out.</p>
+                <ul class="contactInfo">
+                    <li>
+
+                        <a href="mailto:alaminolomo@gmail.com">
+                            <i class="bi bi-envelope"></i> alaminolomo@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+2347032705116">
+                            <i class="bi bi-telephone"></i> 0703 270 5116
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/Lomzyposh/" alt="GitHub Profile">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lomzy25/" alt="LinkedIn Profile">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lomzyp?igsh=MXR6b3VzcGdiOTVkOA==" alt="Instagram Profile">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="text">
+            Designed & Built by Al-amin Olomo
+        </div>
+        <!-- <div class="fixedFoot mail">
+            <div class="mailBox">
+                <a href="mailto:alaminolomo@gmail.com" class="email-link">alaminolomo@gmail.com</a>
+            </div>
+        </div> -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
